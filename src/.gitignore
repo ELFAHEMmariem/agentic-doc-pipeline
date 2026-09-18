@@ -1,0 +1,15 @@
+# Environnement virtuel & Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Variables d'environnement (Clés API)
+.env
+
+# Cache des tests
+.pytest_cache/
+.coverage
+
+# Fichiers temporaires de test
+demo.py
