@@ -33,11 +33,7 @@ agentic-doc-pipeline/
 ### Flux du graphe
 
 ```
-START ──> supervisor ──(conditionnel)──> code_scanner ──> supervisor
-                     │                                         │
-                     ├──(redaction prête)──> redacteur ─┐       │
-                     │      [INTERRUPT_BEFORE ICI]      │       │
-                     └──(rien à faire)──> END            └──> END
+![Workflow du Système Multi-Agents](docs/workflow.png)
 ```
 
 Le **Superviseur** ré-évalue l'état après chaque agent spécialisé (boucle),
