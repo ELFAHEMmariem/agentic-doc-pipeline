@@ -30,11 +30,11 @@ agentic-doc-pipeline/
 └── .env.example
 ```
 
-### Flux du graphe
+## Flux du graphe
 
-```
-![Workflow de l'Agent](docs/workflow.png)
-```
+<p align="center">
+  <img src="docs/workflow.png" alt="Workflow du Système Multi-Agents" width="100%">
+</p>
 
 Le **Superviseur** ré-évalue l'état après chaque agent spécialisé (boucle),
 et décide via une sortie structurée (`RouteDecision`, Pydantic) : c'est plus
