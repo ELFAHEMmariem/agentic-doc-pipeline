@@ -33,7 +33,7 @@ agentic-doc-pipeline/
 ### Flux du graphe
 
 ```
-![Workflow du Système Multi-Agents](docs/workflow.png)
+![Workflow de l'Agent](docs/workflow.png)
 ```
 
 Le **Superviseur** ré-évalue l'état après chaque agent spécialisé (boucle),
